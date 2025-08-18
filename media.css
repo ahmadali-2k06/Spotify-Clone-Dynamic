@@ -1,0 +1,193 @@
+@media only screen and (max-width: 1350px) {
+  .footer {
+    grid-template-columns: repeat(3, 3fr) 2fr;
+    row-gap: 20px;
+  }
+  .footer > :last-child {
+    justify-self: center;
+    grid-column: 2;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .footer {
+    grid-template-columns: repeat(2, 3fr) 2fr;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .footer {
+    grid-template-columns: repeat(1, 3fr) 2fr;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .search-field {
+    min-width: 35vw;
+    margin-right: 10px;
+  }
+  .search-content {
+    min-width: 36.5vw;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .search-content {
+    justify-content: left;
+    min-width: 17.5vw;
+  }
+  .search-field {
+    min-width: 20vw;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .search-content {
+    justify-content: space-between;
+    width: 22vw;
+  }
+  .search-field {
+    width: 12vw;
+  }
+  .keys {
+    display: none;
+  }
+  .browse-content {
+    gap: 5px;
+  }
+  #progress-bar {
+    width: 25vw;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .search-content {
+    justify-content: left;
+    width: 18vw;
+    min-width: auto;
+  }
+  .search-field {
+    min-width: auto;
+    width: 16vw;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .label-content span {
+    display: none;
+  }
+  .search-content {
+    justify-content: left;
+    width: 13vw;
+    min-width: 13vw;
+  }
+  .search-field {
+    width: 10vw;
+    min-width: 10vw;
+    padding: 0px;
+    padding-left: 40px;
+  }
+  .label-content span {
+    display: none;
+  }
+  .sgp-song-name {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger-links {
+    display: inline;
+  }
+  .separator2 {
+    display: none;
+  }
+  .search-content {
+    width: 26vw;
+    min-width: 15vw;
+    max-width: max-content;
+  }
+  .search-field {
+    width: 22vw;
+    min-width: 15vw;
+    max-width: max-content;
+  }
+  .label-content span {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .trending-songs-card .play-button,
+  .popular-artist-card .play-button {
+    display: none;
+  }
+  .main-content::-webkit-scrollbar {
+    display: none;
+  }
+  .song-player {
+    display: none;
+  }
+  .login-box-fixed {
+    display: none;
+  }
+  .nav-desktop-version {
+    display: none;
+  }
+  .nav-mobile-version {
+    display: block;
+  }
+  .portrait-lower-navbar {
+    display: flex;
+  }
+  .side-bar {
+    display: none;
+  }
+  .main {
+    grid-template-columns: [main-content]1fr;
+    margin: 0;
+    height: 100%;
+  }
+  .main-content {
+    grid-column: 1/2;
+    height: 100%;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  body {
+    overflow-y: scroll;
+  }
+  main {
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .footer > :last-child {
+    justify-self: center;
+    grid-column: 1;
+  }
+  .footer {
+    grid-template-columns: repeat(1, 1fr) 1fr;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .footer > :last-child {
+    justify-self: self-start;
+    grid-column: 1;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-height: 1301px) {
+  .side-bar-content-box {
+    height: 12vh;
+  }
+}
+
+@media (max-height: 730px) {
+  .side-bar-contentBox {
+    height: 30vh;
+  }
+}
+@media (max-width: 300px) {
+  .sgp-song-name2,
+  .sgp-song-author2 {
+    width: 70px;
+  }
+}
