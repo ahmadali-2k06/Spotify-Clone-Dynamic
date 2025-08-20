@@ -824,6 +824,7 @@ a {
   transition: transform 0.5s ease;
   overflow-x: auto;
   scroll-behavior: smooth;
+  padding-right: 100px;
 }
 .slider::-webkit-scrollbar {
   display: none;
